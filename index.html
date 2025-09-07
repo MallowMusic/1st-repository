@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Attendance System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Class Attendance System</h1>
+      <h2>III B.Sc. Computer Science</h2>
+      <p id="date"></p>
+    </header>
+
+    <!-- Attendance Section -->
+    <section id="attendance-section">
+      <div id="student-display">
+        <h3 id="student-name">Click Start to Begin</h3>
+      </div>
+      <div class="buttons">
+        <button id="start-btn">Start Attendance</button>
+        <button id="present-btn" class="hidden">Present</button>
+        <button id="absent-btn" class="hidden">Absent</button>
+      </div>
+    </section>
+
+    <!-- Report Section -->
+    <section id="report-section" class="hidden">
+      <h3>Attendance Report</h3>
+      <div id="report-output"></div>
+      <button id="copy-report">Copy Report</button>
+      <button id="store-report">Store Report</button>
+    </section>
+
+    <!-- Stored Reports -->
+    <section id="stored-section">
+      <h3>Stored Reports</h3>
+      <input type="date" id="search-date">
+      <div id="stored-reports"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
