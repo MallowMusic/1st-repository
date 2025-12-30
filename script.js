@@ -11,7 +11,7 @@ const students = [
   "80 - SUBASH S", "81 - SUDHESI M", "82 - TAMILARASAN D",
   "83 - UMASARATHI R J", "84 - VIJAY S", "85 - VIKRAM M",
   "87 - PAVI S", "89 - SRIRAM S", "90 - SANTHOSH M",
-  "93 - SEENIVASAN G", "94 - SHANMUGAVEL V", "95 - ARAVINTH S"
+  "93 - SEENIVASAN G", "94 - SHANMUGAVEL V", "95 - ARAVINTH S", "96 - DINESH S", "97 - KAVIPRASATH V"
 ];
 
 let index = 0;
